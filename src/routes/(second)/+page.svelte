@@ -6,13 +6,13 @@
 	<div
 		class="d-flex justify-content-between align-items-center flex-wrap px-5 py-3"
 		style="font-size:1.2em">
-		<div class="flex-grow-1">+7 (985) 388-74-47</div>
+		<a class="flex-grow-1 text-decoration-none" href="tel:+79853887447">+7 (985) 388-74-47</a>
 		<div class="display-6 fw-bold">ООО "КЛЭВЭР ЛОГИСТИКС"</div>
 		<div class="flex-grow-1 text-end">Время работы: Пн-Пт <br /> с 9:00 до 18:00</div>
 	</div>
 </nav>
 <div class="my-main-block d-flex align-items-center">
-	<div class="my-inside-block bg-white bg-opacity-10 text-light w-75">
+	<div class="my-inside-block bg-white bg-opacity-10 text-light w-50">
 		<div class="d-flex flex-column align-items-start justify-content-center">
 			<h1 class="display-4 fw-bold">МЫ - КЛЭВЭР ЛОГИСТИКС</h1>
 			<h3 class="text-light text-opacity-75 py-3">
@@ -105,6 +105,18 @@
 			image="https://cleverlogistics.ru/images/good_block_11.jpg" />
 	</div>
 </div>
+
+<svelte:head>
+	<style>
+		body {
+			background-image: url('https://webassets.tomtom.com/m/52bd3bb5a537fbba/original/slider_Daimler_1920x800.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			font-size: 18px;
+		}
+	</style>
+</svelte:head>
 
 <style>
 	.my-main-block {
