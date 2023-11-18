@@ -38,7 +38,7 @@
 </div>
 
 <div id="about" class="my-main-block d-flex">
-	<div class="my-inside-block bg-white bg-opacity-50 text-dark w-100">
+	<div class="my-inside-block bg-light bg-opacity-25 text-light w-100">
 		<h2 class="mb-4">Кто мы?</h2>
 		<div>
 			<b>Г</b>оловной офис нашей компании располагается в городе Дубна.
@@ -68,7 +68,7 @@
 </div>
 
 <div id="work" class="my-main-block d-flex">
-	<div class="my-inside-block gap-4 bg-white bg-opacity-50 text-dark w-100">
+	<div class="my-inside-block gap-4 bg-light bg-opacity-25 text-light w-100">
 		<h2 class="mb-4">Чем мы звнимаемся?</h2>
 		<ImageListBlock
 			title="ПЕРЕВОЗКИ КОМПЛЕКТНЫХ ГРУЗОВ"
@@ -130,7 +130,7 @@
 		flex-direction: column;
 		justify-content: center;
 		padding: 3em;
-		backdrop-filter: blur(2em);
+		backdrop-filter: blur(20em);
 		border-radius: 0.35em;
 	}
 </style>
